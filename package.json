@@ -1,0 +1,23 @@
+{
+  "name": "724-events-testeur-logiciel",
+  "version": "1.0.0",
+  "description": "You need Docker to launch the app or launch each services independently ( MongoDB, FrontEnd and Backend)",
+  "homepage": "https://github.com/OpenClassrooms-Student-Center/724-events-testeur-logiciel#readme",
+  "bugs": {
+    "url": "https://github.com/OpenClassrooms-Student-Center/724-events-testeur-logiciel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassrooms-Student-Center/724-events-testeur-logiciel.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
