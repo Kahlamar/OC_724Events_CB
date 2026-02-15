@@ -11,9 +11,9 @@ Le site présente actuellement 2 formulaires :
 - Inscription à l'événement souhaité
 
 Ils ont en commun le nom, le prénom, l'email qui sont des inputs à bien surveiller.
-Puis chacun a ses propres champs comme le message pour la prise de contact et la date pour l'inscription de l'utilisateur.
+Puis chacun a ses propres champs comme le message pour la prise de contact et la date pour l'inscription de l'utilisateur à un événement.
 
-Vient ensuite les tests de récupération de données comme les événements dans le sliders mais aussi le dernier événement en date dans le petit encart en bas à gauche. Ces tests sont préconisés car c'est la première chose que verra l'utilisateurs lorsqu'il se connectera sur le site web. C'est l'image de l'entreprise qui est en jeu.
+Vient ensuite les tests de récupération de données comme les événements dans le slider mais aussi le dernier événement en date dans le petit encart en bas à gauche. Ces tests sont préconisés car c'est la première chose que verra l'utilisateurs lorsqu'il se connectera sur le site web. C'est l'image de l'entreprise qui est en jeu.
 
 Un autre point important est que ces tests sont facilement et rapidement automatisables.
 Par exemple, une fois le formulaire passé en revue, on peut facilement supposer que tout ce qui n'est pas conforme au Happy Path est automatiquement rejetée.

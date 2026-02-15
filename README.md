@@ -1,4 +1,4 @@
-# Read me
+# README
 
 ## Lancer le projet
 
