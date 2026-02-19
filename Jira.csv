@@ -1,0 +1,688 @@
+Résumé,Clé de ticket,ID de ticket,Type de ticket,État,Clé de projet,Nom du projet,Type de projet,Chef de projet,ID de responsable de projet,Description du projet,Priorité,Résolution,Personne assignée,ID de la personne assignée,Rapporteur,ID de rapporteur,Créateur,ID de créateur,Création,Mise à jour,Dernier affichage,Résolu,Date d'échéance,Votes,Description,Environnement,Observateurs,ID des observateurs,Estimation originale,Estimation restante,Temps consacré,Ratio du travail réel comparé à l'estimation,Σ Estimation originale,Σ Estimation restante,Σ Temps consacré,Niveau de sécurité,Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien du ticket entrant (Blocks),Lien de ticket sortant (Blocks),Pièce jointe,Pièce jointe,Champs personnalisés (Issue color),Champs personnalisés (Rank),Champs personnalisés (Start date),Champs personnalisés (Team),Champs personnalisés (Vulnerability),Champs personnalisés (development),Catégorie d'état,Catégorie d'état modifiée
+Événements / Unicité des dates,CCS-60,10251,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,19/févr./26 7:31 PM,19/févr./26 7:38 PM,19/févr./26 7:37 PM,,,0,"Vérifier que les dates d'événements ne se chevauchent pas.
+
+* Résultat attendu : Les dates d'événements ne se chevauchent pas
+* Résultat obtenu : Certaines dates d'événements se chevauchent voire même sont similaires.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement Product Con Avril de gauche
+** Regarder les dates
+** Revenir sur la page précédente
+** Cliquer sur l'événement Product Con Avril de fdroite
+** Regarder les dates
+* Données de test
+** Liens événements en pièces jointes",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,19/févr./26 7:35 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-19 à 19.33.54.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10107,19/févr./26 7:34 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-19 à 19.34.05.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10106,,0|i000bj:,,,,,A faire,19/févr./26 7:31 PM
+Événements / map Google,CCS-59,10250,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,19/févr./26 7:22 PM,19/févr./26 7:28 PM,19/févr./26 7:35 PM,,,0,"Vérifier que la map google montre le bon endroit en fonction de l’événement
+
+* Résultat attendu : la map montre la bonne adresse et le bon lieu dans l’encart.
+* Résultat obtenu : La map est souvent la même peu importe l’événement
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement Digiton Paris
+** Regarder la map
+** Revenir en arriàre
+** Cliquer sur un autre événements
+** Regarder la map
+* Données de test
+** Liens événements en pièces jointes",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,19/févr./26 7:24 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-19 à 19.22.59.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10104,19/févr./26 7:24 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-19 à 19.23.19.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10105,,0|i000bb:,,,,,A faire,19/févr./26 7:22 PM
+Fomulaire Contact / Mail Capitalized,CCS-58,10217,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 8:39 PM,17/févr./26 8:42 PM,19/févr./26 7:36 PM,,,0,"Vérifier l’insertion d’un mail valide.
+
+* Résultat attendu : le mail valide apparaît bien dans l’input.
+* Résultat obtenu : Le mail est en Capitalized
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Remplir le champ mail avec le mail valide ci-dessous
+* Données de test
+** Mail valide : “thomas.anderson@matrix.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,17/févr./26 8:41 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-17 à 20.41.34.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10071,,,0|i000b3:,,,,,A faire,17/févr./26 8:39 PM
+Slider / Bouton sous image,CCS-57,10216,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 8:33 PM,17/févr./26 8:34 PM,17/févr./26 8:39 PM,,,0,"Vérifier que le bouton sous le slider fonctionne.
+
+* Résultat attendu : L’utilisateur est renvoyé sur le formulaire de contact
+* Résultat obtenu : Rien ne se passe
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton sous une image du slider
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000av:,,,,,A faire,17/févr./26 8:33 PM
+Formulaire Inscription / Happy Path,CCS-55,10214,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 8:16 PM,17/févr./26 8:20 PM,17/févr./26 8:33 PM,,,0,"Vérifier que l’inscription se fait correctement avec des valeurs valides.
+
+* Résultat attendu : Un message de succès apparaît
+* Résultat obtenu : Aucun message apparu.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l’image du WEF dans le slider
+** Remplir le formulaire avec les données de test valides ci-dessous.
+** Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom “Thomas”
+** Date : Par défaut
+** Email : “thomas.anderson@matrix.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,17/févr./26 8:20 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-17 à 20.17.37.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10069,,,0|i000an:,,,,,A faire,17/févr./26 8:16 PM
+World Economic Forum / Mois Mai,CCS-54,10213,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 8:11 PM,17/févr./26 8:13 PM,17/févr./26 8:18 PM,,,0,"Vérifier que l’événement du World Economic Forum est en Mai.
+
+* Résultat attendu : Le mois affiché est Mai.
+* Résultat obtenu : Le mois affiché est Avril.
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l’image du WEF dans le slider
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,17/févr./26 8:13 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-17 à 20.13.07.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10068,,,0|i000af:,,,,,A faire,17/févr./26 8:11 PM
+Formulaire contact / Personnel ou Entreprise only,CCS-53,10212,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 8:02 PM,17/févr./26 8:03 PM,17/févr./26 8:11 PM,,,0,"Tester le comportement du formulaire et de l’API dans un cas invalide, ici uniquement le type de mail Personnel ou Entreprise.
+
+* Résultat attendu : Un message d’erreur s’affiche pour indiquer qu’il manque des informations.
+* Résultat obtenu : Aucun message d’erreur n’apparaît.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer seulement le type de mail
+** Cliquer sur Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Type de mail : “Personnel” ou “Entreprise”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000a7:,,,,,A faire,17/févr./26 8:02 PM
+Fomulaire contact / Email only,CCS-52,10211,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 7:59 PM,17/févr./26 8:09 PM,17/févr./26 8:17 PM,,,0,"Tester le comportement du formulaire et de l’API dans un cas invalide, ici uniquement le mail.
+
+* Résultat attendu : Un message d’erreur s’affiche pour indiquer qu’il manque des informations.
+* Résultat obtenu : Aucun message d’erreur n’apparaît.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer seulement le mail valide ci-dessous
+** Cliquer sur Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Mail : “thomas.anderson@matrix.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,17/févr./26 8:09 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-17 à 20.09.20.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10067,,,0|i0009z:,,,,,A faire,17/févr./26 7:59 PM
+Formulaire contact / Autorisation manquante,CCS-51,10210,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 7:56 PM,17/févr./26 7:59 PM,17/févr./26 7:57 PM,,,0,"Tester le comportement du formulaire et de l’API dans un cas invalide, ici uniquement l’autorisation.
+
+* Résultat attendu : Un message d’erreur s’affiche pour indiquer qu’il manque des informations.
+* Résultat obtenu : il n’y a pas d’autorisations sélectionnable.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Chercher l’autorisation
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,17/févr./26 7:59 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-01-29 à 19.39.43.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10066,,,0|i0009r:,,,,,A faire,17/févr./26 7:56 PM
+Formulairre contact / Message only,CCS-50,10209,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 7:54 PM,17/févr./26 7:55 PM,17/févr./26 7:54 PM,,,0,"Tester le comportement du formulaire et de l’API dans un cas invalide, ici uniquement le Message du formulaire de contact.
+
+* Résultat attendu : Un message d’erreur s’affiche pour indiquer qu’il manque des informations.
+* Résultat obtenu : Aucun message d’erreur n’apparaît.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer seulement le Message valide ci-dessous
+** Cliquer sur Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Message : “Anderson da best”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009j:,,,,,A faire,17/févr./26 7:54 PM
+Formulaire contact / Prénom only,CCS-49,10208,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 7:51 PM,17/févr./26 7:55 PM,17/févr./26 7:55 PM,,,0,"Tester le comportement du formulaire et de l’API dans un cas invalide, ici uniquement le Prénom.
+
+* Résultat attendu : Un message d’erreur s’affiche pour indiquer qu’il manque des informations.
+* Résultat obtenu : Aucun message d’erreur n’apparaît.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer seulement le Prénom valide ci-dessous
+** Cliquer sur Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Prénom : “Anderson”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009b:,,,,,A faire,17/févr./26 7:51 PM
+Formulaire contact / Nom only,CCS-48,10207,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,17/févr./26 7:46 PM,17/févr./26 7:51 PM,17/févr./26 7:47 PM,,,0,"Tester le comportement du formulaire et de l’API dans un cas invalide, ici uniquement le Nom.
+
+* Résultat attendu : Un message d’erreur s’affiche pour indiquer qu’il manque des informations.
+* Résultat obtenu : Aucun message d’erreur n’apparaît.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer seulement le nom valide ci-dessous
+** Cliquer sur Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00093:,,,,,A faire,17/févr./26 7:46 PM
+Formulaire contact / Happy path valide,CCS-46,10141,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,13/févr./26 6:36 AM,13/févr./26 6:43 AM,17/févr./26 7:53 PM,,,0,"Tester l’insertion d’une prise de contact valide.
+
+* Résultat attendu : l’API renvoie un status code 201 et un message de succès apparaît
+* Résultat obtenu : Un status code 201 est bien renvoyé mais pas de message de succès
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer les données valides ci-dessus dans les champs correspondants
+** Cliquer sur Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Email : “thomas.anderson@sion.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,,,,0|i0008n:,,,,,A faire,13/févr./26 6:36 AM
+Postman / POST Inscription Happy Path,CCS-45,10108,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 11:10 AM,13/févr./26 7:15 AM,13/févr./26 7:14 AM,,,0,"Tester le comportement de l’API en lui demandant d’insérer un formulaire valide.
+
+* Résultat attendu : L’api renvoie un status code 201.
+* Résultat obtenu : Erreur 400 Bad Request.
+* Criticité : Critique
+* Étapes
+** Requêter l’endpoint http://localhost:8080/api/inscription avec une requête de type POST.
+* DOnnées de test
+** Corps de la requête
+{noformat}{
+    ""name"": ""Thomas"",
+    ""surname"": ""Anderson"",
+    ""email"": ""neo@matrix.com"",
+    ""message"": ""Je m'inscris à l'event !""
+}{noformat}",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 11:12 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 111144.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10033,,,0|i0008f:,,,,,A faire,08/févr./26 11:10 AM
+Postman / POST Injection XSS,CCS-44,10107,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 11:08 AM,13/févr./26 7:14 AM,13/févr./26 7:13 AM,,,0,"Tester le comportement de l’API en lui demandant d’insérer un formulaire contenant du code JS.
+
+* Résultat attendu : L’api renvoie une erreur 400 BadRequest
+* Résultat obtenu : Success 201. Inscription faite.
+* Criticité : Critique
+* Étapes
+** Requêter l’endpoint http://localhost:8080/api/contact avec une requête de type POST.
+* Données de test
+** Corp de la requête : 
+{noformat}{
+    ""name"": ""Hacker"",
+    ""prenom"": ""XSS"",
+    ""type"": ""personnel"",
+    ""email"": ""hacker@test.com"",
+    ""message"": ""<script>alert(1)</script>""
+}{noformat}",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 11:10 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 111016.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10032,,,0|i00087:,,,,,A faire,08/févr./26 11:08 AM
+Postman / POST Formulaire contact avec mail mal formaté,CCS-43,10106,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 11:04 AM,13/févr./26 7:15 AM,13/févr./26 7:15 AM,,,0,"Tester le comportement de l’API en lui demandant d’insérer un formulaire valide à l’exception du mail.
+
+* Résultat attendu : L’api renvoie une erreur 400 BadRequest
+* Résultat obtenu : Erreur 500 remontée
+* Criticité : Majeure
+* Étapes
+** Requêter l’endpoint http://localhost:8080/api/events/inscription avec une requête de type POST.
+* Données de test
+** Url de l’endpoint ci-jointe
+** Corps de la requête:
+{noformat}{
+    ""name"": ""Thomas"",
+    ""surname"": ""Anderson"",
+    ""email"": ""Neo@matrix.com"",
+    ""message"": ""Je m'inscris à l'event !""
+}{noformat}
+",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 11:06 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 13.57.05.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10031,,,0|i0007z:,,,,,A faire,08/févr./26 11:04 AM
+Postman / Récupérer dernier événement,CCS-42,10105,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:59 AM,13/févr./26 7:10 AM,,,,0,"Tester le comportement de l’API en lui demandant de remonter le dernier événement.
+
+* Résultat attendu : L’api renvoie le dernier événment et un Status Code 200.
+* Résultat obtenu : Erreur 500 remontée
+* Criticité : Majeure
+* Étapes
+** Requêter l’endpoint http://localhost:8080/api/events/last avec une requête de type GET.
+* Données de test
+** Url de l’endpoint ci-jointe",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 10:59 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-02 à 19.25.48.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10029,08/févr./26 11:03 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 110320.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10030,,0|i0007r:,,,,,A faire,08/févr./26 10:59 AM
+Postman / ID incorrect,CCS-41,10104,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:55 AM,13/févr./26 7:10 AM,13/févr./26 7:55 AM,,,0,"Tester le comportement de l’API en lui donnant un ID d'événement à récupérer totalement incorrect.
+
+* Résultat attendu : L’api renvoie une erreur 404 Not Found
+* Résultat obtenu : Crash fatal de l’API.
+* Criticité : Critique
+* Étapes
+** Requêter l’endpoint http://localhost:8080/api/events/ceci-nest-pas-un-object-id-valide avec une requête de type GET.
+* Données de test
+** Url de l’endpoint ci-jointe",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 10:57 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 14.01.17.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10028,,,0|i0007j:,,,,,A faire,08/févr./26 10:55 AM
+Postman / ID Mal formaté mais de bonne longueur,CCS-40,10103,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:53 AM,13/févr./26 7:09 AM,13/févr./26 7:26 AM,,,0,"Tester le comportement de l’API en lui donnant un ID d'événement à récupérer mal formaté mais de bonne longueur.
+
+* Résultat attendu : L’api renvoie une erreur 404 Not Found
+* Résultat obtenu : Crash fatal de l’API.
+* Criticité : Critique
+* Étapes
+** Requêter l’endpoint [http://localhost:8080/api/events/zzzzzzzzzzzzzzzzzzzzzzzz|http://localhost:8080/api/events/zzzzzzzzzzzzzzzzzzzzzzzz] avec une requête de type GET.
+* Données de test
+** Url de l’endpoint ci-jointe",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 10:54 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 14.08.36.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10027,,,0|i0007b:,,,,,A faire,08/févr./26 10:53 AM
+Postman / ID event trop court,CCS-39,10102,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:48 AM,13/févr./26 7:26 AM,13/févr./26 7:26 AM,,,0,"Tester le comportement de l’API en lui donnant un ID d'événement à récupérer trop court.
+
+* Résultat attendu : L’api renvoie une erreur 4004 Not Found
+* Résultat obtenu : Crash fatal de l’API.
+* Criticité : Critique
+* Étapes
+** Requêter l’endpoint [http://localhost:8080/api/events/123456|http://localhost:8080/api/events/123456] avec une requête de type GET.
+* Données de test
+** Url de l’endpoint ci-jointe",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-18,08/févr./26 10:52 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 14.06.04.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10026,,,0|i00073:,,,,,A faire,08/févr./26 10:48 AM
+Formulaire inscription / Adresse mail mal formatée,CCS-38,10101,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:45 AM,13/févr./26 7:08 AM,13/févr./26 7:26 AM,,,0,"Tester l’insertion d’un mail invalide.
+
+* Résultat attendu : l’input n’accepte pas le mail si il est mal formaté
+* Résultat obtenu : l’input a accepté le mail en Capitalized
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement désiré
+** Insérer l’adresse mail invalide ci-dessous.
+** Regarder l’input
+** Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Date : “10/06/2027”
+** Email : “Thomas.Anderson@sion.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:46 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 104616.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10025,,,0|i0006v:,,,,,A faire,08/févr./26 10:45 AM
+Formulaire inscription / Injection SQL,CCS-37,10100,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:42 AM,13/févr./26 7:08 AM,13/févr./26 7:25 AM,,,0,"Tester l’input pour empêcher l’injection SQL.
+
+* Résultat attendu : l’input n’accepte pas
+* Résultat obtenu : l’input a accepté 'Thomas OR 1=1 '
+* Criticité : Critique
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement désiré
+** Insérer ' OR 1 =1 ' dans un input du formulaire.
+** Envoyer
+* Approfondissement
+** Le backend sera impacté par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas OR 1=1”
+** Date : “10/06/2027”
+** Email : “thomas.anderson@sion.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:43 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 104325.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10024,,,0|i0006n:,,,,,A faire,08/févr./26 10:42 AM
+Formulaire inscription / XSS,CCS-36,10099,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:40 AM,13/févr./26 7:07 AM,13/févr./26 7:25 AM,,,0,"Tester le XSS avec du code JS.
+
+* Résultat attendu : L’input doit refuser le code JavaScript
+* Résultat obtenu : L’input a accepté le code JavaScript
+* Criticité : Critique
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement désiré
+** Insérer ‘<script>
+  alert(""Hello World!"");
+</script>’ dans un input à la place de la donnée valide.
+** Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Date : “10/06/2027”
+** Email : “thomas.anderson@sion.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:42 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 104200.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10023,,,0|i0006f:,,,,,A faire,08/févr./26 10:40 AM
+Formulaire inscription / Très grand nombre de caractères,CCS-35,10098,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:37 AM,13/févr./26 7:25 AM,13/févr./26 7:25 AM,,,0,"Tester le blocage du grand nombre de caractères dans un input pour ne pas saturer le stockage.
+
+* Résultat attendu : L’input ne doit pas accepter un grand nombre de caractère. Il doit ètre clairement défini dans le frontend et backend.
+* Résultat obtenu : L’input accepte un très grand nombre de caractères.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement désiré
+** Insérer dans un input un très grand nombres de caractères.
+** Insérer dans les autres inputs les valeurs valides
+** Envoyer
+* Analayse approfondie
+** Le frontend et le backend doivent checker tous les 2 car ils sont impactés.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Lorem……”
+** Date “10/06/2027”
+** Email : “thomas.anderson@sion.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:39 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 103915.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10022,,,0|i00067:,,,,,A faire,08/févr./26 10:37 AM
+Formulaire inscription / Caractères non latins,CCS-34,10097,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:35 AM,13/févr./26 7:04 AM,13/févr./26 7:24 AM,,,0,"Tester le blocage des caractères non latins afin d'éviter des conflits en base de données.
+
+* Résultat attendu : Une erreur dans le formulaire apparaît indiquant le mauvais formatage
+* Résultat obtenu : l’input a accepté des caractères non latins.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l'événement désiré
+** Insérer des caractères non latin dans un input du formulaire d’inscription
+* Analyse approfondie
+** Le frontend va ètre impacté pour la correction tout comme l’API qui doit aussi checker le format.
+* Données de test
+** Chinois en chinois : “中国人“",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:36 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 103632.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10021,,,0|i0005z:,,,,,A faire,08/févr./26 10:35 AM
+Formulaire inscription / Date future événement,CCS-33,10096,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:31 AM,13/févr./26 7:03 AM,13/févr./26 7:24 AM,,,0,"Tester la sélection de date future à l'événement.
+
+* Résultat attendu : L’API doit renvoyer une erreur indiquant la mauvaise date.
+* Résultat obtenu : Erreur 400 
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur un événement
+** Remplir correctement le formulaire en mettant cependant une mauvaise date future.
+** Cliquer sur envoyer.
+* Approfondissement
+** Le backend devra chercker cette date.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Date : “13/02/2028”
+** Email : “thomas.anderson@sion.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:33 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 103247.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10020,,,0|i0005r:,,,,,A faire,08/févr./26 10:31 AM
+Formulaire inscription / Date antérieure événement,CCS-32,10095,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:28 AM,13/févr./26 7:03 AM,13/févr./26 7:24 AM,,,0,"Tester la sélection de date antérieure à l'événement.
+
+* Résultat attendu : L’API doit renvoyer une erreur indiquant la mauvaise date.
+* Résultat obtenu : Erreur 400 
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur un événement
+** Remplir correctement le formulaire en mettant cependant une mauvaise date antérieure.
+** Cliquer sur envoyer.
+* Approfondissement
+** Le backend devra chercker cette date.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Date : “13/02/2026”
+** Email : “thomas.anderson@sion.com”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-17,08/févr./26 10:30 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 102745.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10019,,,0|i0005j:,,,,,A faire,08/févr./26 10:28 AM
+Formulaire contact / Espaces only,CCS-31,10094,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:21 AM,13/févr./26 7:02 AM,13/févr./26 7:24 AM,,,0,"Tester le mauvais formatage qu’avec des espaces.
+
+* Résultat attendu : L’input doit refuser ce formatage.
+* Résultat obtenu : L’input n’a pas refusé le formatage.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer '                 ' dans les inputs.
+** Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,,,,0|i0005b:,,,,,A faire,08/févr./26 10:21 AM
+Formulaire contact / Rage Click,CCS-30,10093,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:18 AM,17/févr./26 8:43 PM,17/févr./26 8:43 PM,,,0,"Tester l’anti “Rage Click” du formulaire valide.
+
+* Résultat attendu : 1 seul formulaire doit être envoyé malgré des clics frénétiques..
+* Résultat obtenu : Autant de réponses API valides que de clics.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer des valeurs valides dans le premier formulaire
+** Cliquer sur le bouton envoyer X fois
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Email : “thomas.anderson@sion.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,,,,0|i00053:,,,,,A faire,08/févr./26 10:18 AM
+Formulaire contact / Trim,CCS-29,10092,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:14 AM,13/févr./26 7:00 AM,13/févr./26 7:50 AM,,,0,"Tester le trim du formulaire pour les inputs textes
+
+* Résultat attendu : L’input doit automatiquement “Trimer” le texte.
+* Résultat obtenu : L’input n’a pas trimé le texte et l’API a renvoyé un Status Code 201.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Remplir les champs correspondants avec les valeurs ci-dessous entourées d’espaces.
+** Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Email : “thomas.anderson@sion.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 10:17 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 101715.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10018,,,0|i0004v:,,,,,A faire,08/févr./26 10:14 AM
+Formulaire contact / XSS,CCS-28,10091,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:08 AM,13/févr./26 6:59 AM,13/févr./26 7:23 AM,,,0,"Tester le XSS avec du code JS.
+
+* Résultat attendu : L’input doit refuser le code JavaScript
+* Résultat obtenu : L’input a accepté le code JavaScript
+* Criticité : Critique
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Remplir les inputs avec des données valides sauf dans 1 
+** Insérer ‘<script>
+  alert(""Hello World!"");
+</script>’ dans l'input désiré.
+** Envoyer
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Email : “thomas.anderson@sion.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 10:12 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 101143.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10017,,,0|i0004n:,,,,,A faire,08/févr./26 10:08 AM
+Formulaire contact / Champs vides,CCS-27,10090,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 10:06 AM,13/févr./26 7:23 AM,13/févr./26 7:23 AM,,,0,"Tester l’erreur d’insertion d’un formulaire vide.
+
+* Résultat attendu : Le formulaire vide ne doit pas s’envoyer
+* Résultat obtenu : Le formulaire a été envoyé et l’API a répondu avec un Status Code 201.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Cliquer sur envoyer le formulaire
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,,,,0|i0004f:,,,,,A faire,08/févr./26 10:06 AM
+Formulaire contact / Tenter l'injection SQL,CCS-25,10088,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:59 AM,13/févr./26 6:57 AM,13/févr./26 7:22 AM,,,0,"Tester l’input pour empêcher l’injection SQL.
+
+* Résultat attendu : l’input n’accepte pas l’injection SQL
+* Résultat obtenu : l’input a accepté 'Thomas OR 1=1 '
+* Criticité : Critique
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Insérer ' OR 1 =1 ' dans un input
+** Envoyer
+* Approfondissement
+** Le  backend sera impacté par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas OR 1 = 1”
+** Email : “thomas.anderson@sion.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 10:02 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 100148.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10015,,,0|i0003z:,,,,,A faire,08/févr./26 9:59 AM
+Formulaire contact / Caractères spéciaux dans adresse mail,CCS-24,10087,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:56 AM,13/févr./26 6:57 AM,13/févr./26 7:22 AM,,,0,"Tester l’input mail pour s’assurer que le mail ne contient pas de caractères spéciaux
+
+* Résultat attendu : l’input n’accepte pas de caractère spéciaux.
+* Résultat obtenu : l’input a accepté un / par exemple.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Remplir les champs correspondants avec les valeurs valides sauf l’email
+** Insérer l’email invalide ci-dessous
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Email : “thomas/anderson@sion.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 9:58 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 095826.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10014,,,0|i0003r:,,,,,A faire,08/févr./26 9:56 AM
+Formulaire contact / Plusieurs adresses mails valides,CCS-23,10086,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:52 AM,13/févr./26 7:22 AM,13/févr./26 7:21 AM,,,0,"Tester l’input mail pour s’assurer qu’une seule adresse mail soit lié au formulaire.
+
+* Résultat attendu : 1 seul mail valide est insérable.
+* Résultat obtenu : l’input a accepté plusieurs mails.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact en haut à droite
+** Remplir les champs correspondants avec des données valides sauf l’email
+** Insérer au moins 2 mails valides dans l’input mail à partir des données de tests ci-dessous
+* Approfondissement
+** Le frontend et le backend seront impactés par ce check.
+* Données de test
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Email : “thomas.anderson@sion.com” “toto@toto.com”
+** Type : “Personnel”
+** Message : “Je suis intéressé par vos services.”",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 9:55 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 095511.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10013,,,0|i0003j:,,,,,A faire,08/févr./26 9:52 AM
+Formulaire contact / Email caractères non latin,CCS-22,10085,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:50 AM,13/févr./26 7:21 AM,13/févr./26 7:21 AM,,,0,"Tester le formatage de l’input mail avec des caractères non latins.
+
+* Résultat attendu : Une erreur de formatage apparaît.
+* Résultat obtenu : l’input accepte les caractères non latins.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact
+** Insérer des caractères non latin dans l’input mail.
+* Approfondissement
+** Le frontend et le backend sont impactés par ce check.
+* Données de test
+** Chinois en chinois : “中国人“",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 9:51 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 094919.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10012,,,0|i0003b:,,,,,A faire,08/févr./26 9:50 AM
+Formulaire contact / 1 seul caractère,CCS-21,10084,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:44 AM,13/févr./26 7:21 AM,13/févr./26 7:20 AM,,,0,"Tester le formatage des inputs.
+
+* Résultat attendu : Une erreur de formatage apparaît
+* Résultat obtenu : l’input accepte ce seul caractère.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton contact
+** Insérer 1 seul caractère dans un input
+* Approfondissement
+** Le frontend et le backend sont impactés par ce check.
+* Données de test
+** Caractère : “a“",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 9:47 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 094739.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10011,,,0|i00033:,,,,,A faire,08/févr./26 9:44 AM
+Formulaire contact / Grand nombre de caractères,CCS-20,10083,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:39 AM,13/févr./26 6:53 AM,13/févr./26 7:46 AM,,,0,"Tester le blocage du grand nombre de caractères dans un input pour ne pas saturer le stockage.
+
+* Résultat attendu : L’input ne doit pas accepter un grand nombre de caractère. Il doit ètre clairement défini dans le frontend et backend.
+* Résultat obtenu : L’input accepte un très grand nombre de caractères.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton de Contact
+** Insérer dans un input un très grand nombres de caractères.
+* Analayse approfondie
+** Le frontend et le backend doivent checker tous les 2 car ils sont impactés.
+* Données de test
+** Lorem Ipsum de 500 paragraphes (url jointe)",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 9:44 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 094352.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10010,,,0|i0002v:,,,,,A faire,08/févr./26 9:39 AM
+Formulaire contact / Caractères non latins,CCS-19,10082,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,08/févr./26 9:31 AM,13/févr./26 7:20 AM,13/févr./26 7:45 AM,,,0,"Tester le blocage des caractères non latins afin d'éviter des conflits en base de données ou ailleurs.
+
+* Résultat attendu : Une erreur dans le formulaire apparaît indiquant le mauvais formatage
+* Résultat obtenu : l’input a accepté des caractères non latins et aucune erreur n’est remontée à l’utilisateur.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le bouton Contact en haut à droite
+** Insérer des caractères non latin dans un input
+* Analyse approfondie
+** Le frontend va ètre impacté pour la correction tout comme l’API qui doit aussi checker le format.
+* Données de test
+** Mot chinois en chinois : “中国人“",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,CCS-16,08/févr./26 9:38 AM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-08 093727.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10009,,,0|i0002n:,,,,,A faire,08/févr./26 9:31 AM
+Postman Général,CCS-18,10081,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:58 PM,08/févr./26 11:14 AM,17/févr./26 8:23 PM,,,0,Ticket général des anomalies avec Postman,,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,CCS-45,CCS-44,CCS-43,CCS-42,CCS-41,CCS-40,CCS-39,,,,,,,,,,,0|i0002f:,,,,,A faire,07/févr./26 5:58 PM
+Formulaire Inscription,CCS-17,10080,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:58 PM,13/févr./26 7:19 AM,17/févr./26 8:15 PM,,,0,"Tests du formulaires d’inscription. Il a de multiples KO.
+
+* Résultat attendu : Le formulaire fonctionne
+* Résultat obtenu : Le formulaire laisse passer beaucoup d'éléments invalide.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l’encart “Contact”
+** Remplir le formulaire avec des informations valides ou invalides selon le cas
+** Cliquer sur envoyer
+* Approfondissement
+** L’erreur se situe au frontend concernant les inputs sans formatage mais aussi dans l’API
+* Données de test
+** Indiquées dans les tests correspondants.",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,CCS-38,CCS-37,CCS-36,CCS-35,CCS-34,CCS-33,CCS-32,,,,,,,,,,,0|i00027:,,,,,A faire,07/févr./26 5:58 PM
+Formulaire contact,CCS-16,10079,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:52 PM,13/févr./26 6:50 AM,17/févr./26 8:36 PM,,,0,"Tests du formulaires de contact. Il est entièrement KO.
+
+* Résultat attendu : Le formulaire fonctionne
+* Résultat obtenu : Le formulaire laisse passer beaucoup d'éléments invalide et l’API renvoie un code Success 201.
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur l’encart “Contact”
+** Remplir le formulaire avec des informations valides
+** Cliquer sur envoyer
+* Approfondissement
+** L’erreur se situe au frontend concernant les inputs sans formatage mais aussi dans l’API
+* Données de test
+** Indiquées dans les tests correspondants.",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,CCS-31,CCS-29,CCS-30,CCS-28,CCS-27,CCS-25,CCS-24,CCS-23,CCS-22,CCS-21,CCS-20,CCS-19,CCS-46,,07/févr./26 5:56 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 17.56.04.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10007,07/févr./26 5:58 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 17.57.47.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10008,,0|i0001z:,,,,,A faire,07/févr./26 5:52 PM
+Page conférence / Bouton,CCS-15,10078,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:49 PM,13/févr./26 6:50 AM,13/févr./26 7:44 AM,,,0,"Test des boutons sous les images afin de naviguer.
+
+* Résultat attendu : Le clic sur le bouton renvoie à l’image correspondante
+* Résultat obtenu : L’utilisateur n’est pas renvoyé sur la page correspondante
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Attendre le défilement d’une image
+** Cliquer sur un bouton sous l’image
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001r:,,,,,A faire,07/févr./26 5:49 PM
+Tests exploratoires / Test de charge,CCS-14,10077,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:43 PM,13/févr./26 7:18 AM,13/févr./26 7:44 AM,,,0,"Test de charge réalisé pour déterminer si l’API a un système de bannissement ou ne procède pas à la requête. 
+
+* Résultat attendu : L’API doit renvoyer quelques codes status 200 puis que des erreurs 429 “Too Many Requests”.
+* Résultat obtenu : L’application n’a pas banni l’adresse IP et a répondu à toutes les requêtes.
+* Criticité : Critique
+* Étapes
+** Créer une requête de type GET dans Postman sur l’endpoint ci-joint
+** Lancer la collection en sélectionnant “Run” puis section performance
+** Paramétrer 50 utilisateurs pendant 1 minute
+** Lancer
+* Données de test
+** Url de l’endpoint associé au ticket",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,07/févr./26 5:45 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 14.44.37.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10006,,,0|i0001j:,,,,,A faire,07/févr./26 5:43 PM
+Nos réalisations / Filtre,CCS-13,10076,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:39 PM,13/févr./26 6:48 AM,13/févr./26 7:44 AM,,,0,"Le filtre ne se fait pas peu importe la catégorie.
+
+* Résultat attendu : Les vignettes affichées sont filtrées en fonction de la catégorie choisie
+* Résultat obtenu : Aucun filtre n’est appliqué
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le lien “Nos réalisations” dans le Header
+** Cliquer sur la liste déroulante et sélectionner une catégorie
+* Approfondissement
+** Erreur uniquement Frontend (à confirmer)
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,07/févr./26 5:41 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 17.39.46.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10005,,,0|i0001b:,,,,,A faire,07/févr./26 5:39 PM
+Nos réalisations / Pagination,CCS-12,10075,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:32 PM,13/févr./26 7:17 AM,13/févr./26 7:43 AM,,,0,"La pagination ne se fait pas dans la section “Nos réalisations”
+
+* Résultat attendu : Les réalisations suivantes s'affichent
+* Résultat obtenu : Les réalisations suivantes ne s’affichent pas
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Cliquer sur le lien “Nos réalisations” dans le Header
+** Cliquer sur le 2 du sélecteur de pagination
+* Approfondissement
+** Erreur uniquement Frontend
+* Données de test
+** Aucune",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,07/févr./26 5:37 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 17.37.04.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10004,,,0|i00013:,,,,,A faire,07/févr./26 5:32 PM
+Image 3 Slider / Formulaire réservation,CCS-11,10074,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:25 PM,13/févr./26 7:17 AM,17/févr./26 8:06 PM,,,0,"Le formulaire ne s’envoie pas malgré les champs valides.
+
+* Résultat attendu : Le formulaire de réservation est envoyé et un message de succès s'affiche
+* Résultat obtenu : Le formulaire ne s’envoie pas et aucun message d’erreur n’est affiché malgré l’erreur 400 remontée
+* Criticité : Majeure
+* Étapes
+** Aller sur la page d’accueil
+** Attendre le défilement de l’image du World Economic Forum
+** Cliquer dessus
+** Remplir les champs du formulaire avec les valeurs valides ci-dessous
+** Cliquer sur envoyer
+* Analyse approfondie
+** Une erreur 400 est remontée
+* Données de test
+** Nom du formulaire (changeable) : “Sneakercreaze market”
+** Nom : “Anderson”
+** Prénom : “Thomas”
+** Date : 10 Juin 2027",,Cyril Brun,5ffb4e14b66825010edbbcbe,,,,,,,,,,,,,,,,,,,,,,,07/févr./26 5:31 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 17.28.12.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10003,,,0|i0000v:,,,,,A faire,07/févr./26 5:25 PM
+Slider / Conférence / Mois,CCS-10,10073,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:17 PM,13/févr./26 6:44 AM,17/févr./26 8:05 PM,,,0,"Le mois affiché sur l'événement “conférence” n’est pas le bon.
+
+* Résultat attendu : Le mois affiché attendu est “Avril”
+* Résultat obtenu : Le mois affiché obtenu est “Mai”
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Attendre l’affichage de l’image “conférence”
+* Analyse approfondie
+** L’API renvoie le bon mois (29/04 pour être exact)
+** L’erreur se fait à l’affichage
+* Données de test
+** Aucune",,,,,,,,,,,,,,,,,,,,,,,,,,07/févr./26 5:23 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-01-29 à 19.49.52.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10001,07/févr./26 5:23 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-02-07 à 17.22.29.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10002,,0|i0000n:,,,,,A faire,07/févr./26 5:17 PM
+Slider / Défilement Images,CCS-9,10072,Bug,À faire,CCS,Mon projet Kanban,software,Cyril Brun,5ffb4e14b66825010edbbcbe,Your first project,Medium,,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,Cyril Brun,5ffb4e14b66825010edbbcbe,07/févr./26 5:06 PM,13/févr./26 6:44 AM,13/févr./26 5:08 PM,,,0,"Les images du Slider ne défilent pas correctement. Il n’y a pas 3 images mais 3 images et un blanc.
+
+* Résultat attendu : Les 3 images apparaissent correctement
+* Résultat obtenu : Les 3 images sont accompagnés d’un blanc
+* Criticité : Mineure
+* Étapes
+** Aller sur la page d’accueil
+** Attendre le défilement de toutes les images
+* Données de test
+** Aucune",,,,,,,,,,,,,,,,,,,,,,,,,,07/févr./26 5:15 PM;88467814-9fb7-4995-ad9e-7e0ff54d9013;Capture d’écran 2026-01-29 à 20.03.32.png;https://learningtestauto.atlassian.net/rest/api/3/attachment/content/10000,,,0|i0000f:,,,,,A faire,07/févr./26 5:06 PM
