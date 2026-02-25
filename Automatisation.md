@@ -1,5 +1,8 @@
 # Étude d'automatisation
 
+critères d'automatisations
+
+
 ## Sélection des tests
 
 Pour la sélection des tests à automatiser, je préconise d'automatiser ceux liés aux entrées utilisateurs en priorité.

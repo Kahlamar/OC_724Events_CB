@@ -10,7 +10,7 @@ describe("Get Last Event Test Erreur 500", () => {
 // Bine noter les tests
 // En premier, fais une étude d’automatisation pour fiabiliser les futures campagnes de tests de régression et de validation des livraisons.
 // Écris dans un document :
-
+// FIltres en GET et formulaires du contact
 // les tests sélectionnés pour l’automatisation ;
 // les critères de choix d’automatisation de ces tests  ;
 // les conditions d’automatisation (données nécessaires, environnements, …).
